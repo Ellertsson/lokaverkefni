@@ -152,6 +152,7 @@
             </ol>
             
             <input type="submit" value="Submit Quiz" />
+            <p>Copyrights Benedikt B. Ellertsson & kristján Ingi</p>
 		
 		</form>
 	
