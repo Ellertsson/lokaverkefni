@@ -51,7 +51,7 @@
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-                        <label for="question-2-answers-A">A) '<?php>....</?>'</label>
+                        <label for="question-2-answers-A">A) <'?php'>....<'/?'></label>
                     </div>
                     
                     <div>
@@ -61,12 +61,12 @@
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-                        <label for="question-2-answers-C">C) <&>...</&></label>
+                        <label for="question-2-answers-C">C) <'&'>...<'/&'></label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
-                        <label for="question-2-answers-D">D) '<?php ...  ?>'</label>
+                        <label for="question-2-answers-D">D) <'?php ...  ?'></label>
                     </div>
                 
                 </li>
