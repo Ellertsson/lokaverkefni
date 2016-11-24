@@ -21,7 +21,7 @@
             
                 <li>
                 
-                    <h3>1.) What does CSS stand for?</h3>
+                    <h3> What does CSS stand for?</h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
@@ -47,7 +47,7 @@
                 
                 <li>
                 
-                    <h3>2.) Which year was HTML released?</h3>
+                    <h3> Which year was HTML released?</h3>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
@@ -73,7 +73,7 @@
                 
                 <li>
                 
-                    <h3>3.) What does HTML stand for?</h3>
+                    <h3> What does HTML stand for?</h3>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
@@ -99,7 +99,7 @@
                 
                 <li>
                 
-                    <h3>4.) A 404 Error is?</h3>
+                    <h3> A 404 Error is?</h3>
                     
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
@@ -125,7 +125,7 @@
                 
                 <li>
                 
-                    <h3>5.) Choose the correct HTML element for the largest heading: </h3>
+                    <h3> Choose the correct HTML element for the largest heading: </h3>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
