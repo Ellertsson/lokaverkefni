@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -15,7 +15,7 @@
 
 		<h1>VSH Quiz</h1>
 		
-		<form action="grade.php" method="post" id="quiz">
+		<form action="VSH_grade.php" method="post" id="quiz">
 		
             <ol>
             
@@ -159,11 +159,6 @@
 	
 	<script type="text/javascript">
 	document.write(unescape("%3Cscript src='" + Host + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-	var pageTracker = _gat._getTracker("UA-68528-29");
-	pageTracker._initData();
-	pageTracker._trackPageview();
 	</script>
 
 </body>

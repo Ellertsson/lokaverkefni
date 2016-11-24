@@ -6,7 +6,7 @@
 	
 	<title>VSH Quiz</title>
 	
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
@@ -46,12 +46,6 @@
 	<script type="text/javascript">
 	document.write(unescape("%3Cscript src='" + Host + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 	</script>
-	<script type="text/javascript">
-	var pageTracker = _gat._getTracker("UA-68528-29");
-	pageTracker._initData();
-	pageTracker._trackPageview();
-	</script>
-
 </body>
 
 </html>
