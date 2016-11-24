@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
-	<title>VSH Quiz</title>
+	<title>GSÖ Quiz</title>
 	
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -13,7 +13,7 @@
 
 	<div id="page-wrap">
 
-		<h1>VSH Quiz</h1>
+		<h1>GSÖ Quiz</h1>
 		
 		<form action="VSH_grade.php" method="post" id="quiz">
 		
