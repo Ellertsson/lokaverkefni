@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
-	<title>VSH Quiz</title>
+	<title>GSÖ Quiz</title>
 	
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -13,13 +13,13 @@
 
 	<div id="page-wrap">
 
-		<h1>VSH Quiz Grade</h1>
+		<h1>GSÖ Quiz Grade</h1>
 		
         <?php
             
             if ( isset($_POST['question-1-answers']) and isset($_POST['question-2-answers']) and  isset($_POST['question-3-answers']) and isset($_POST['question-4-answers']) and isset($_POST['question-5-answers'])  )
             {
-                  
+
                   $answer1 = $_POST['question-1-answers'];
                   $answer2 = $_POST['question-2-answers'];
                   $answer3 = $_POST['question-3-answers'];
