@@ -1,0 +1,39 @@
+header {
+  font-size: 3em;
+  text-align: center;
+  padding: 1em 1em;
+  background-color: #1177aa; }
+
+body {
+  margin: 0; }
+
+nav ul {
+  transition: transform 1s;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #3399aa;
+  justify-content: center; }
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1em 3em;
+  display: block; }
+  nav a:hover {
+    background-color: #117799;
+    transform: scale(1.2); }
+
+.buttonnav {
+  display: none; }
+
+footer {
+  position: fixed;
+  overflow: hidden;
+  background-color: #1177aa;
+  padding: 1em 1em;
+  margin: 0;
+  bottom: 0px;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
