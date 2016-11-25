@@ -25,11 +25,11 @@
             $answer5 = $_POST['question-5-answers'];
              $Grade = 0;
             
-            if ($answer1 == "B") { $Grade++; }
+            if ($answer1 == "A") { $Grade++; }
             if ($answer2 == "C") { $Grade++; }
-            if ($answer3 == "A") { $Grade++; }
-            if ($answer4 == "D") { $Grade++; }
-            if ($answer5 == "C") { $Grade++; }
+            if ($answer3 == "D") { $Grade++; }
+            if ($answer4 == "A") { $Grade++; }
+            if ($answer5 == "A") { $Grade++; }
             
             echo "<div id='results'>$Grade / 5 correct</div>";
             if ($Grade == 5) {echo "<div id='results1'>Very Good!</div>";}
@@ -42,7 +42,8 @@
             }
           else
           {
-            echo "vantar  að svara spurningu";
+            echo "A question remains unanswered<br>";
+            echo "<a href='CNA_index.php'>Click here</a> to go back!";
           }
           
            

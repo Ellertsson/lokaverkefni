@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
-	<title>VSH Quiz</title>
+	<title>CNA Quiz</title>
 	
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -13,138 +13,138 @@
 
 	<div id="page-wrap">
 
-		<h1>VSH Quiz</h1>
+		<h1>CNA Quiz</h1>
 		
-		<form action="VSH_grade.php" method="post" id="quiz">
+		<form action="CNA_grade.php" method="post" id="quiz">
 		
             <ol>
             
                 <li>
                 
-                    <h3> What does CSS stand for?</h3>
+                    <h3> What is indicated by the term throughput?</h3>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                        <label for="question-1-answers-A">A) The measure of the bits transferred across the media over a given period of time. </label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                        <label for="question-1-answers-B">B) The measure of the usable data transferred across the media.</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                        <label for="question-1-answers-C">C) The time it takes for a message to get from sender to receiver.</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) Ekkert af þessum</label>
+                        <label for="question-1-answers-D">D) The guaranteed data transfer rate offered by an ISP.</label>
                     </div>
                 
                 </li>
                 
                 <li>
                 
-                    <h3> Which year was HTML released?</h3>
+                    <h3> Which type of connector does a networkd interface card use?</h3>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-                        <label for="question-2-answers-A">A) 2001</label>
+                        <label for="question-2-answers-A">A) DIN</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
-                        <label for="question-2-answers-B">B) 1998</label>
+                        <label for="question-2-answers-B">B) PS-2</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-                        <label for="question-2-answers-C">C) 1993</label>
+                        <label for="question-2-answers-C">C) RJ-45</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
-                        <label for="question-2-answers-D">D) 2003</label>
+                        <label for="question-2-answers-D">D) RJ-11</label>
                     </div>
                 
                 </li>
                 
                 <li>
                 
-                    <h3> What does HTML stand for?</h3>
+                    <h3> Which of the layer of the OSI model is responsible for specyfying the encapsulation method used for specific type of media?</h3>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
-                        <label for="question-3-answers-A">A) Hyper Text Markup Language</label>
+                        <label for="question-3-answers-A">A) Physical</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-                        <label for="question-3-answers-B">B) Hyperlinks and Text Markup Language</label>
+                        <label for="question-3-answers-B">B) Application</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
-                        <label for="question-3-answers-C">C) Home Tool Markup Language</label>
+                        <label for="question-3-answers-C">C) Transport</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
-                        <label for="question-3-answers-D">D) None of the above</label>
+                        <label for="question-3-answers-D">D) Data link</label>
                     </div>
                 
                 </li>
                 
                 <li>
                 
-                    <h3> A 404 Error is?</h3>
+                    <h3> Which method of data transfer allows information to be sent and received at the same time?</h3>
                     
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
-                        <label for="question-4-answers-A">A) is an HTTP Status Code meaning Page Not Found</label>
+                        <label for="question-4-answers-A">A) Full duplex</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
-                        <label for="question-4-answers-B">B) is a good excuse for a clever design</label>
+                        <label for="question-4-answers-B">B) Half duplex</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
-                        <label for="question-4-answers-C">C) should be monitored for in web analytics</label>
+                        <label for="question-4-answers-C">C) Multiplex</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
-                        <label for="question-4-answers-D">D) All of the above</label>
+                        <label for="question-4-answers-D">D) Simplex</label>
                     </div>
                 
                 </li>
                 
                 <li>
                 
-                    <h3> Choose the correct HTML element for the largest heading: </h3>
+                    <h3> Which statement describes an extended star topology? </h3>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
-                        <label for="question-5-answers-A">A) <'head'></label>
+                        <label for="question-5-answers-A">A) End devices ar connected together by a bus and each bus connects to a central intermediate device</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
-                        <label for="question-5-answers-B">B) <'heading'></label>
+                        <label for="question-5-answers-B">B) End devices connect to a central intermediate device, which in turn connects to other central intermediate devices.</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
-                        <label for="question-5-answers-C">C) <'h1'></label>
+                        <label for="question-5-answers-C">C) Each end system is connected to its respective neighbor via an intermediate device.</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
-                        <label for="question-5-answers-D">D) <'h6'></label>
+                        <label for="question-5-answers-D">D) All end and intermediate devices are connected in a chain to each other.</label>
                     </div>
                 
                 </li>
