@@ -15,7 +15,7 @@
 
 		<h1>FOR Quiz</h1>
 		
-		<form action="VSH_grade.php" method="post" id="quiz">
+		<form action="FOR_grade.php" method="post" id="quiz">
 		
             <ol>
             
