@@ -19,6 +19,7 @@
             
             if ( isset($_POST['question-1-answers']) and isset($_POST['question-2-answers']) and  isset($_POST['question-3-answers']) and isset($_POST['question-4-answers']) and isset($_POST['question-5-answers'])  )
             {
+                  
                   $answer1 = $_POST['question-1-answers'];
                   $answer2 = $_POST['question-2-answers'];
                   $answer3 = $_POST['question-3-answers'];
