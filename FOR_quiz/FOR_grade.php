@@ -42,7 +42,7 @@
             }
           else
           {
-            echo "A question remains unasnwered";
+            echo "A question remains unasnwered<br>";
             echo "<a href='FOR_index.php'>Click here</a> to go back!";
           }
           
