@@ -4,8 +4,28 @@ header
 	font-size:3em;
 	text-align:center;
 	padding:1em 1em;
-	background-color:#1177aa;
 	
+}
+/*litir fyrir siðurnar*/
+.color1
+{
+	background-color:#1177aa;
+}
+.color2
+{
+	background-color:#003366;
+}
+.color3
+{
+ 	background-color:#ff0000;
+}
+.color4
+{
+	background-color:#006600;
+}
+.color5
+{
+ background-color:#9900cc;
 }
 body{
 	margin:0;
@@ -43,10 +63,46 @@ nav
 {
 	display: none;
 }
+@media all and (max-width: 48em)
+{
+	nav ul
+	{
+		flex-flow: column;
+		text-align: center;
+		max-height: 0;
+		transition: max-height 1s;
+		overflow: hidden;
+		
+	}
+	.buttonnav
+	{
+		display: block;
+		background-color: #117799;
+		text-align: center;
+		padding: 1em;
+		color: white;
+		font-size: 1.5em;
+		cursor: pointer;
+		
 
+	}
+		.block
+		{
+			max-height: 500px;
+
+		}
+}
+@media all and (max-width: 30em)
+{
 footer
 {
 	position:fixed;
+	
+}
+}
+footer
+{
+	
 	overflow:hidden;
 	background-color:#1177aa;
 	padding:1em 1em;
