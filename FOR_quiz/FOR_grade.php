@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
-	<title>VSH Quiz</title>
+	<title>FOR Quiz</title>
 	
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -13,7 +13,7 @@
 
 	<div id="page-wrap">
 
-		<h1>VSH Quiz Grade</h1>
+		<h1>FOR Quiz Grade</h1>
 		
         <?php
             if ( isset($_POST['question-1-answers']) and isset($_POST['question-2-answers']) and  isset($_POST['question-3-answers']) and isset($_POST['question-4-answers']) and isset($_POST['question-5-answers'])  )
@@ -25,11 +25,11 @@
             $answer5 = $_POST['question-5-answers'];
              $Grade = 0;
             
-            if ($answer1 == "B") { $Grade++; }
-            if ($answer2 == "C") { $Grade++; }
-            if ($answer3 == "A") { $Grade++; }
-            if ($answer4 == "D") { $Grade++; }
-            if ($answer5 == "C") { $Grade++; }
+            if ($answer1 == "D") { $Grade++; }
+            if ($answer2 == "D") { $Grade++; }
+            if ($answer3 == "C") { $Grade++; }
+            if ($answer4 == "B") { $Grade++; }
+            if ($answer5 == "A") { $Grade++; }
             
             echo "<div id='results'>$Grade / 5 correct</div>";
             if ($Grade == 5) {echo "<div id='results1'>Very Good!</div>";}
@@ -42,7 +42,8 @@
             }
           else
           {
-            echo "vantar  að svara spurningu";
+            echo "A question remains unasnwered";
+            echo "<a href='FOR_index.php'>Click here</a> to go back!"
           }
           
            

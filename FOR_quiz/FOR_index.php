@@ -108,12 +108,12 @@
                     
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
-                        <label for="question-4-answers-B">B) is</label>
+                        <label for="question-4-answers-B">B) as</label>
                     </div>
                     
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
-                        <label for="question-4-answers-C">C) as</label>
+                        <label for="question-4-answers-C">C) is</label>
                     </div>
                     
                     <div>
