@@ -40,7 +40,7 @@
                     
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) Ekkert af þessum</label>
+                        <label for="question-1-answers-D">D) None of the above</label>
                     </div>
                 
                 </li>

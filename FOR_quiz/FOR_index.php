@@ -13,7 +13,7 @@
 
 	<div id="page-wrap">
 
-		<h1>FOR Quiz</h1>
+		<h1>FOR Quiz.</h1>
 		
 		<form action="FOR_grade.php" method="post" id="quiz">
 		
