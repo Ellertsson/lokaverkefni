@@ -53,4 +53,35 @@ section
 @include basicbox;
 }
 
+.box4
+{
+	@include basicbox;
+	
+}
+nav
+{
 
+	ul
+	{
+		transition:transform 1s;
+		list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	background-color: #3399aa;
+	}
+	a
+	{
+		color: white;
+	text-decoration: none;
+	padding: 1em 3em;
+		display: block;
+		&:hover
+		{
+			background-color: #117799;
+			transform: scale(1.2);
+		}
+	}
+	
+}
