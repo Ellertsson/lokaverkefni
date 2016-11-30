@@ -71,4 +71,24 @@ nav a {
 .buttonnav {
   display: none; }
 
+@media all and (max-width: 48em) {
+  nav ul {
+    flex-flow: column;
+    text-align: center;
+    max-height: 0;
+    transition: max-height 1s;
+    overflow: hidden; }
+
+  .buttonnav {
+    display: block;
+    background-color: #117799;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer; }
+
+  .block {
+    max-height: 500px; } }
+
 /*# sourceMappingURL=main.css.map */
