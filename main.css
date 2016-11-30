@@ -9,4 +9,14 @@ header {
 body {
   margin: 0; }
 
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  section div {
+    border: 2px red solid;
+    padding: 20px;
+    margin: 20px;
+    flex: 300px; }
+
 /*# sourceMappingURL=main.css.map */

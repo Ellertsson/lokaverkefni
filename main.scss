@@ -23,3 +23,16 @@ body{
 	}
 	text-align:center;
 }
+section
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	div
+	{
+		border: 2px red solid;
+	padding: 20px;
+	margin: 20px;
+	flex: 300px;
+	}
+}
