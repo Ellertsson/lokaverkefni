@@ -36,3 +36,21 @@ section
 	flex: 300px;
 	}
 }
+
+.box1
+{
+
+@include basicbox;
+}
+.box2
+{
+
+@include basicbox;
+}
+.box3
+{
+
+@include basicbox;
+}
+
+
