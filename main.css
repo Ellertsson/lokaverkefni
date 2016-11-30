@@ -68,4 +68,7 @@ nav a {
     background-color: #117799;
     transform: scale(1.2); }
 
+.buttonnav {
+  display: none; }
+
 /*# sourceMappingURL=main.css.map */
