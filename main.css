@@ -90,6 +90,9 @@ nav a {
 
   .block {
     max-height: 500px; } }
+@media all and (max-width: 30em) {
+  footer {
+    position: fixed; } }
 footer {
   overflow: hidden;
   background-color: #1177aa;
