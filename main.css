@@ -90,5 +90,12 @@ nav a {
 
   .block {
     max-height: 500px; } }
+footer {
+  overflow: hidden;
+  background-color: #1177aa;
+  padding: 1em 1em;
+  margin: 0;
+  bottom: 0px;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
