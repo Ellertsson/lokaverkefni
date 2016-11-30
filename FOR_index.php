@@ -6,7 +6,7 @@
 	
 	<title>FOR Quiz</title>
 	
-	<link rel="stylesheet" type="text/css" href="FOR_style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
