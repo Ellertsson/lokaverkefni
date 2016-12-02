@@ -1,32 +1,31 @@
 
 header
 {
-	font-size:3em;
-	text-align:center;
-	padding:1em 1em;
-	background-color:#1177aa;
+	font-size:3em;/*stjornarfont size*/
+	text-align:center;/*færir textan i miðju*/
+	padding:1em 1em;/*stillir padding*/
+	background-color:#1177aa;/*background color*/
 	
 }
-/*litir fyrir siðurnar*/
 
 body{
-	margin:0;
+	margin:0;/*setir margin á body i 0*/
 }
-@mixin basicbox
+@mixin basicbox/*aðalboxið*/
 {
-	flex: 1 300px;
-	box-shadow: 0 2px 5px #888;
-	transition:transform 0.5s;
-	&:hover
+	flex: 1 300px;/*stærð flexbox*/
+	box-shadow: 0 2px 5px #888;/*addar inn shadow*/
+	transition:transform 0.5s;/*setir animation time i 0.5s*/
+	&:hover/*þegar það fer yfir*/
 	{
-		transform: scale(1.01)
+		transform: scale(1.01)/*stækar það*/
 	}
 	text-align:center;
 	box-shadow: 0 2px 5px #888;
-	display:inline-block;
-	font-family:Rockwell, serif;
-	border-radius:10px;
-	cursor: pointer;
+	display:inline-block;/*gerir block*/
+	font-family:Rockwell, serif;/*breytir fontinu í rockwell*/
+	border-radius:10px;/*setir border radius*/
+	cursor: pointer;/*breytir cursorinum yfir í pointer*/
 	transition: transform 0.5s;
 	p{
 		margin:0;
@@ -36,8 +35,8 @@ body{
 }
 section
 {
-	display: flex;
-	flex-direction: row;
+	display: flex;/*displayar flexbox*/
+	flex-direction: row;/*setir flex box i röð*/
 	flex-wrap: wrap;
 	div
 	{
@@ -48,17 +47,17 @@ section
 	}
 }
 a{
-	text-decoration: none;
+	text-decoration: none;/*tekur text decoration i burtu*/
 }
-.box1
+.box1/*classin box 1*/
 {
 
 @include basicbox;
 }
-.box2
+.box2/*classin box 2*/
 {
 padding: 100px;
-a
+a/*set kassa i hringum a í box2*/
 {
 	background-color:#1177aa;
 	padding: 1em 2em;
@@ -67,7 +66,8 @@ a
 }
 @include basicbox;
 }
-.box3
+.box3/*classin fyrir box 3*/
+
 {
 
 @include basicbox;
@@ -106,7 +106,7 @@ nav
 {
 	display: none;
 }
-@media all and (max-width: 48em)
+@media all and (max-width: 48em)/*þegar sterð á siðuni fer að 48em bretist hún i þennan media*/
 {
 	nav ul
 	{
@@ -136,7 +136,8 @@ nav
 
 		}
 }
-@media all and (max-width: 30em)
+@media all and (max-width: 30em)/*þegar sterð á siðuni fer að 30em bretist hún i þennan media*/
+
 {
 footer
 {
@@ -144,7 +145,7 @@ footer
 	
 }
 }
-footer
+footer/*footer*/
 {
 	
 	overflow:hidden;

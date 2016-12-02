@@ -1,17 +1,23 @@
 @charset "UTF-8";
 header {
   font-size: 3em;
+  /*stjornarfont size*/
   text-align: center;
+  /*f├ªrir textan i mi├░ju*/
   padding: 1em 1em;
-  background-color: #1177aa; }
+  /*stillir padding*/
+  background-color: #1177aa;
+  /*background color*/ }
 
-/*litir fyrir si├░urnar*/
 body {
-  margin: 0; }
+  margin: 0;
+  /*setir margin ├í body i 0*/ }
 
 section {
   display: flex;
+  /*displayar flexbox*/
   flex-direction: row;
+  /*setir flex box i r├Â├░*/
   flex-wrap: wrap; }
   section div {
     border: 2px red solid;
@@ -20,18 +26,26 @@ section {
     flex: 300px; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  /*tekur text decoration i burtu*/ }
 
 .box1 {
   flex: 1 300px;
+  /*st├ªr├░ flexbox*/
   box-shadow: 0 2px 5px #888;
+  /*addar inn shadow*/
   transition: transform 0.5s;
+  /*setir animation time i 0.5s*/
   text-align: center;
   box-shadow: 0 2px 5px #888;
   display: inline-block;
+  /*gerir block*/
   font-family: Rockwell, serif;
+  /*breytir fontinu ├¡ rockwell*/
   border-radius: 10px;
+  /*setir border radius*/
   cursor: pointer;
+  /*breytir cursorinum yfir ├¡ pointer*/
   transition: transform 0.5s; }
   .box1:hover {
     transform: scale(1.01); }
@@ -41,14 +55,21 @@ a {
 .box2 {
   padding: 100px;
   flex: 1 300px;
+  /*st├ªr├░ flexbox*/
   box-shadow: 0 2px 5px #888;
+  /*addar inn shadow*/
   transition: transform 0.5s;
+  /*setir animation time i 0.5s*/
   text-align: center;
   box-shadow: 0 2px 5px #888;
   display: inline-block;
+  /*gerir block*/
   font-family: Rockwell, serif;
+  /*breytir fontinu ├¡ rockwell*/
   border-radius: 10px;
+  /*setir border radius*/
   cursor: pointer;
+  /*breytir cursorinum yfir ├¡ pointer*/
   transition: transform 0.5s; }
   .box2 a {
     background-color: #1177aa;
@@ -62,14 +83,21 @@ a {
 
 .box3 {
   flex: 1 300px;
+  /*st├ªr├░ flexbox*/
   box-shadow: 0 2px 5px #888;
+  /*addar inn shadow*/
   transition: transform 0.5s;
+  /*setir animation time i 0.5s*/
   text-align: center;
   box-shadow: 0 2px 5px #888;
   display: inline-block;
+  /*gerir block*/
   font-family: Rockwell, serif;
+  /*breytir fontinu ├¡ rockwell*/
   border-radius: 10px;
+  /*setir border radius*/
   cursor: pointer;
+  /*breytir cursorinum yfir ├¡ pointer*/
   transition: transform 0.5s; }
   .box3:hover {
     transform: scale(1.01); }
