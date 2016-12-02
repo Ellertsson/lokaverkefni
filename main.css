@@ -9,7 +9,75 @@ header {
 body {
   margin: 0; }
 
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  section div {
+    border: 2px red solid;
+    padding: 20px;
+    margin: 20px;
+    flex: 300px; }
+
+a {
+  text-decoration: none; }
+
+.box1 {
+  flex: 1 300px;
+  box-shadow: 0 2px 5px #888;
+  transition: transform 0.5s;
+  text-align: center;
+  box-shadow: 0 2px 5px #888;
+  display: inline-block;
+  font-family: Rockwell, serif;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.5s; }
+  .box1:hover {
+    transform: scale(1.01); }
+  .box1 p {
+    margin: 0; }
+
+.box2 {
+  padding: 100px;
+  flex: 1 300px;
+  box-shadow: 0 2px 5px #888;
+  transition: transform 0.5s;
+  text-align: center;
+  box-shadow: 0 2px 5px #888;
+  display: inline-block;
+  font-family: Rockwell, serif;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.5s; }
+  .box2 a {
+    background-color: #1177aa;
+    padding: 1em 2em;
+    border: 2px solid black;
+    color: black; }
+  .box2:hover {
+    transform: scale(1.01); }
+  .box2 p {
+    margin: 0; }
+
+.box3 {
+  flex: 1 300px;
+  box-shadow: 0 2px 5px #888;
+  transition: transform 0.5s;
+  text-align: center;
+  box-shadow: 0 2px 5px #888;
+  display: inline-block;
+  font-family: Rockwell, serif;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.5s; }
+  .box3:hover {
+    transform: scale(1.01); }
+  .box3 p {
+    margin: 0; }
+
 nav ul {
+  cursor: pointer;
   transition: transform 1s;
   list-style: none;
   margin: 0;
@@ -38,6 +106,7 @@ nav a {
     overflow: hidden; }
 
   .buttonnav {
+    cursor: pointer;
     display: block;
     background-color: #117799;
     text-align: center;
