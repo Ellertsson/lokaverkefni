@@ -4,6 +4,7 @@
 }
 body { 
 	font: 14px Georgia, serif;
+	background-color: #e6e6e6;
 }
 footer{
 	bottom: 0px;
@@ -14,9 +15,10 @@ footer{
 #page-wrap {
 	width: 500px; 
 	margin: 0 auto;
-	border: 1px solid black;
+	border: 3px solid black;
 	border-radius: 8px;
 	padding: 10px;
+	background-color: white;
 }
 h1 { 
 	margin: 25px 0; 
