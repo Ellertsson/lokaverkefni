@@ -52,6 +52,7 @@
         ?>
 	
 	</div>
+    <footer><h3>Benedikt B. Ellertsson & Kristján Ingi - 2016</h3></footer>
 	
 </body>
 

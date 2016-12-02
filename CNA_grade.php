@@ -54,10 +54,8 @@
         ?>
 	
 	</div>
-	
-	<script type="text/javascript">
-	document.write(unescape("%3Cscript src='" + Host + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
+    <footer><h3>Benedikt B. Ellertsson & Kristján Ingi - 2016</h3></footer>
+    
 </body>
 
 </html>
