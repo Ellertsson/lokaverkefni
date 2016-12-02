@@ -1,0 +1,157 @@
+
+header
+{
+	font-size:3em;/*stjornarfont size*/
+	text-align:center;/*færir textan i miðju*/
+	padding:1em 1em;/*stillir padding*/
+	background-color:#1177aa;/*background color*/
+	
+}
+
+body{
+	margin:0;/*setir margin á body i 0*/
+}
+@mixin basicbox/*aðalboxið*/
+{
+	flex: 1 300px;/*stærð flexbox*/
+	box-shadow: 0 2px 5px #888;/*addar inn shadow*/
+	transition:transform 0.5s;/*setir animation time i 0.5s*/
+	&:hover/*þegar það fer yfir*/
+	{	
+		transform: scale(1.01)/*stækar það*/
+	}
+	text-align:center;
+	box-shadow: 0 2px 5px #888;
+	display:inline-block;/*gerir block*/
+	font-family:Rockwell, serif;/*breytir fontinu í rockwell*/
+	border-radius:10px;/*setir border radius*/
+	cursor: pointer;/*breytir cursorinum yfir í pointer*/
+	transition: transform 0.5s;
+	p{
+		margin:0;
+	}
+	
+	
+}
+section
+{
+	display: flex;/*displayar flexbox*/
+	flex-direction: row;/*setir flex box i röð*/
+	flex-wrap: wrap;
+	div
+	{
+		border: 2px red solid;
+	padding: 20px;
+	margin: 20px;
+	flex: 300px;
+	}
+}
+a{
+	text-decoration: none;/*tekur text decoration i burtu*/
+}
+.box1/*classin box 1*/
+{
+
+@include basicbox;
+}
+.box2/*classin box 2*/
+{
+padding: 100px;
+a/*set kassa i hringum a í box2*/
+{
+	background-color:#1177aa;
+	padding: 1em 2em;
+	border:2px solid black;
+	color:black;
+}
+@include basicbox;
+}
+.box3/*classin fyrir box 3*/
+
+{
+
+@include basicbox;
+}
+
+
+nav
+{
+
+	ul
+	{
+	cursor: pointer;
+		transition:transform 1s;
+		list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	background-color: #3399aa;
+	}
+	a
+	{
+		color: white;
+	text-decoration: none;
+	padding: 1em 3em;
+		display: block;
+		&:hover
+		{
+			background-color: #117799;
+			transform: scale(1.2);
+		}
+	}
+	
+}
+.buttonnav
+{
+	display: none;
+}
+@media all and (max-width: 48em)/*þegar sterð á siðuni fer að 48em bretist hún i þennan media*/
+{
+	nav ul
+	{
+		flex-flow: column;
+		text-align: center;
+		max-height: 0;
+		transition: max-height 1s;
+		overflow: hidden;
+		
+	}
+	.buttonnav
+	{
+	cursor: pointer;
+		display: block;
+		background-color: #117799;
+		text-align: center;
+		padding: 1em;
+		color: white;
+		font-size: 1.5em;
+		cursor: pointer;
+		
+
+	}
+		.block
+		{
+			max-height: 500px;
+
+		}
+}
+@media all and (max-width: 30em)/*þegar sterð á siðuni fer að 30em bretist hún i þennan media*/
+
+{
+footer
+{
+	position:fixed;
+	
+}
+}
+footer/*footer*/
+{
+	
+	overflow:hidden;
+	background-color:#1177aa;
+	padding:1em 1em;
+	margin:0;
+	bottom:0px;
+	width:100%;
+}
