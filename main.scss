@@ -17,7 +17,7 @@ body{
 	box-shadow: 0 2px 5px #888;/*addar inn shadow*/
 	transition:transform 0.5s;/*setir animation time i 0.5s*/
 	&:hover/*þegar það fer yfir*/
-	{
+	{	
 		transform: scale(1.01)/*stækar það*/
 	}
 	text-align:center;
