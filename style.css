@@ -3,20 +3,22 @@
 	padding: 0; 
 }
 body { 
-	font: 14px Georgia, serif; 
+	font: 14px Georgia, serif;
 }
 
 #page-wrap {
 	width: 500px; 
-	margin: 0 auto; 
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 8px;
 }
 
 h1 { 
 	margin: 25px 0; 
 	font: 14px Georgia, Serif; 
 	text-transform: uppercase; 
-	letter-spacing: 3px; }
-
+	letter-spacing: 3px;
+}
 #quiz input {
     vertical-align: middle;
 }
